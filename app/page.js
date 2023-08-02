@@ -9,7 +9,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center p-24">
+    <main className="flex flex-col items-center md:px-8 py-8">
       <Hero />
       <InteractiveTabs />
       <ImageWithText />
