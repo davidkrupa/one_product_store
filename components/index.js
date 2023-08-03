@@ -4,6 +4,7 @@ import ImageWithText from "./ImageWithText";
 import Multicolumn from "./Multicolumn";
 import Faq from "./Faq";
 import CustomersOpinions from "./CustomersOpinions";
+import Timer from "./Timer";
 
 export {
   Hero,
@@ -12,4 +13,5 @@ export {
   Multicolumn,
   Faq,
   CustomersOpinions,
+  Timer,
 };
