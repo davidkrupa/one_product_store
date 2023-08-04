@@ -5,6 +5,9 @@ import Multicolumn from "./Multicolumn";
 import Faq from "./Faq";
 import CustomersOpinions from "./CustomersOpinions";
 import Timer from "./Timer";
+import TabsHighlights from "./TabsHighlights";
+import TabsSpecification from "./TabsSpecification";
+import TabsDescription from "./TabsDescription";
 
 export {
   Hero,
@@ -14,4 +17,7 @@ export {
   Faq,
   CustomersOpinions,
   Timer,
+  TabsHighlights,
+  TabsSpecification,
+  TabsDescription,
 };
