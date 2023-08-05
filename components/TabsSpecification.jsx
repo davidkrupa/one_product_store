@@ -15,21 +15,25 @@ const TabsSpecification = () => {
       .join(" ")
   );
 
-  console.log(titles);
-
   return (
     <table>
       <thead>
         <tr>
-          <th>Model</th>
-          <th>XHG 7Pro</th>
+          <th scope="col" className="px-6 py-2 text-left">
+            Model
+          </th>
+          <th scope="col" className="px-6 py-2 text-left">
+            XHG 7Pro
+          </th>
         </tr>
       </thead>
       <tbody>
         {specificationKeys.map((item, index) => (
           <tr>
-            <td>{titles[index]}</td>
-            <td>{specificationRows[item]}</td>
+            <td className="px-6 py-2 font-semibold">{titles[index]}</td>
+            <td className="px-6 py-2 border-b border-black">
+              {specificationRows[item]}
+            </td>
           </tr>
         ))}
       </tbody>

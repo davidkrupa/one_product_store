@@ -8,6 +8,7 @@ import Timer from "./Timer";
 import TabsHighlights from "./TabsHighlights";
 import TabsSpecification from "./TabsSpecification";
 import TabsDescription from "./TabsDescription";
+import ImageMiniature from "./ImageMiniature";
 
 export {
   Hero,
@@ -20,4 +21,5 @@ export {
   TabsHighlights,
   TabsSpecification,
   TabsDescription,
+  ImageMiniature,
 };

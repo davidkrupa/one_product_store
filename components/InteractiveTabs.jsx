@@ -8,10 +8,14 @@ const InteractiveTabs = ({ tabs }) => {
   const tabsKeys = Object.keys(tabs);
 
   return (
-    <div className="flex flex-col">
-      <nav className="flex flex-row flex-wrap gap-4 mb-4">
+    <div className="flex flex-col justify-center items-center my-8">
+      <nav className="flex flex-wrap gap-8 mb-8">
         {tabsKeys?.map((item) => (
-          <button key={item} className="" onClick={() => setCurrentTab(item)}>
+          <button
+            key={item}
+            className="font-semibold text-black active:text-red-500 focus:text-red-500 focus:underline focus:underline-offset-8"
+            onClick={() => setCurrentTab(item)}
+          >
             {tabs[item].name}
           </button>
         ))}

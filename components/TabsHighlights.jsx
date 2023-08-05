@@ -12,7 +12,7 @@ const TabsHighlights = () => {
     <div>
       <ul className="grid grid-cols-1 sm:grid-cols-3">
         {highlightsList.map((item) => (
-          <li className="m-4">{item}</li>
+          <li className="mx-6 my-3">{item}</li>
         ))}
       </ul>
     </div>
