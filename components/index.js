@@ -9,6 +9,7 @@ import TabsHighlights from "./TabsHighlights";
 import TabsSpecification from "./TabsSpecification";
 import TabsDescription from "./TabsDescription";
 import ImageMiniature from "./ImageMiniature";
+import ProductPresentation from "./ProductPresentation";
 
 export {
   Hero,
@@ -22,4 +23,5 @@ export {
   TabsSpecification,
   TabsDescription,
   ImageMiniature,
+  ProductPresentation,
 };

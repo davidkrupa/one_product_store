@@ -1,6 +1,6 @@
 import {
   Hero,
-  ImageWithText,
+  ProductPresentation,
   Multicolumn,
   Faq,
   CustomersOpinions,
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center md:px-8 py-8">
       <Hero />
-      <ImageWithText />
+      <ProductPresentation />
       <Multicolumn />
       <Faq />
       <CustomersOpinions />
