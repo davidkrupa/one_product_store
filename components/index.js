@@ -10,6 +10,7 @@ import TabsSpecification from "./TabsSpecification";
 import TabsDescription from "./TabsDescription";
 import ImageMiniature from "./ImageMiniature";
 import ProductPresentation from "./ProductPresentation";
+import IconWithText from "./IconWithText";
 
 export {
   Hero,
@@ -24,4 +25,5 @@ export {
   TabsDescription,
   ImageMiniature,
   ProductPresentation,
+  IconWithText,
 };
