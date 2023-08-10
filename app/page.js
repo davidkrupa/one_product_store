@@ -1,9 +1,9 @@
 import {
   Hero,
   ProductPresentation,
-  Multicolumn,
   Faq,
   CustomersOpinions,
+  GuaranteeBanner,
 } from "@/components";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
     <main className="flex flex-col items-center md:px-8 py-8">
       <Hero />
       <ProductPresentation />
-      <Multicolumn />
+      <GuaranteeBanner />
       <Faq />
       <CustomersOpinions />
     </main>

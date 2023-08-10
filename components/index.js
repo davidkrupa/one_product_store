@@ -11,6 +11,7 @@ import TabsDescription from "./TabsDescription";
 import ImageMiniature from "./ImageMiniature";
 import ProductPresentation from "./ProductPresentation";
 import IconWithText from "./IconWithText";
+import GuaranteeBanner from "./GuaranteeBanner";
 
 export {
   Hero,
@@ -26,4 +27,5 @@ export {
   ImageMiniature,
   ProductPresentation,
   IconWithText,
+  GuaranteeBanner,
 };
