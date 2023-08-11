@@ -26,8 +26,8 @@ const Faq = () => {
       </h2>
 
       <Multicolumn cols={2}>
-        {questions?.map((item) => (
-          <div>
+        {questions?.map((item, index) => (
+          <div key={index}>
             <h5
               onClick={() => setCurentlyOpen((prev) => !prev)}
               className="p-3 rounded-xl bg-slate-400 text-base font-semibold"
