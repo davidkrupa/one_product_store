@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <div className="flex flex-col items-center rounded-3xl bg-slate-200">
-      <div className="flex md:flex-row flex-col justify-center items-center max-w-5xl w-full px-6 py-4 gap-6">
+      <div className="flex md:flex-row flex-col justify-center items-center max-w-5xl w-full px-2 py-2 sm:px-6 sm:py-4 gap-6">
         <div className="flex flex-col self-start flex-1 w-full gap-4 relative">
           <Image
             src={headphones}
@@ -43,7 +43,7 @@ const Hero = () => {
             <p className="text-sm font-semibold ml-2 text-white">- 10%</p>
           </div>
 
-          <div className="flex justify-start gap-3 max-w-md">
+          <div className="flex justify-start gap-3 max-w-xs sm:max-w-lg">
             <ImageMiniature source={headphones} altText={"black headphones"} />
             <ImageMiniature source={headphones} altText={"black headphones"} />
             <ImageMiniature source={headphones} altText={"black headphones"} />

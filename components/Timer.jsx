@@ -19,13 +19,13 @@ const Timer = () => {
       </div>
       <div className="flex flex-col justify-center items-center p-4 rounded-xl bg-slate-600">
         <p className="text-2xl font-semibold">{minutes}</p>
-        <p className="text-sm">Minutes</p>
+        <p className="text-sm">Mins</p>
       </div>
       <div className="flex flex-col justify-center items-center p-4 rounded-xl bg-slate-600">
         <p className="text-2xl font-semibold" suppressHydrationWarning>
           {seconds}
         </p>
-        <p className="text-sm">Seconds</p>
+        <p className="text-sm">Secs</p>
       </div>
     </div>
   );

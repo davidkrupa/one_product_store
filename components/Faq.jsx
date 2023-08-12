@@ -21,11 +21,11 @@ const Faq = () => {
 
   return (
     <div className="flex flex-col justify-center items-center max-w-5xl">
-      <h2 className="py-10 text-3xl font-semibold">
+      <h2 className="py-10 text-3xl font-semibold text-center px-2">
         Frequently Asked Questions
       </h2>
 
-      <Multicolumn cols={2}>
+      <Multicolumn cols={"md:grid-cols-2"}>
         {questions?.map((item, index) => (
           <div key={index}>
             <h5

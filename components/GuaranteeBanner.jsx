@@ -20,7 +20,7 @@ const GuaranteeBanner = () => {
   ];
   return (
     <>
-      <Multicolumn cols={3}>
+      <Multicolumn cols={"md:grid-cols-3"}>
         {columns?.map((item) => (
           <IconWithText details={item} />
         ))}
