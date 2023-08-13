@@ -12,6 +12,7 @@ import ImageMiniature from "./ImageMiniature";
 import ProductPresentation from "./ProductPresentation";
 import IconWithText from "./IconWithText";
 import GuaranteeBanner from "./GuaranteeBanner";
+import QuantityPicker from "./QuantityPicker";
 
 export {
   Hero,
@@ -28,4 +29,5 @@ export {
   ProductPresentation,
   IconWithText,
   GuaranteeBanner,
+  QuantityPicker,
 };
