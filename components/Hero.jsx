@@ -1,15 +1,7 @@
 import Image from "next/image";
 
 import headphones from "../assets/5.jpg";
-import {
-  InteractiveTabs,
-  Timer,
-  TabsHighlights,
-  TabsDescription,
-  TabsSpecification,
-  ImageMiniature,
-  QuantityPicker,
-} from ".";
+import { InteractiveTabs, Timer, ImageMiniature, QuantityPicker } from ".";
 
 const Hero = () => {
   return (

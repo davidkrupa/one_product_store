@@ -13,6 +13,7 @@ import ProductPresentation from "./ProductPresentation";
 import IconWithText from "./IconWithText";
 import GuaranteeBanner from "./GuaranteeBanner";
 import QuantityPicker from "./QuantityPicker";
+import Footer from "./Footer";
 
 export {
   Hero,
@@ -30,4 +31,5 @@ export {
   IconWithText,
   GuaranteeBanner,
   QuantityPicker,
+  Footer,
 };
